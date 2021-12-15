@@ -63,3 +63,8 @@ main {
   justify-content: space-around;
   margin: 20px;
 }
+
+.click {
+  display: flex;
+  justify-content: center;
+}
