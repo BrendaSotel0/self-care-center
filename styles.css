@@ -18,3 +18,10 @@ body {
   color: #ffffff;
   background: linear-gradient(#134d71, #78a7c6, #f7e4bf) no-repeat;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+ }
