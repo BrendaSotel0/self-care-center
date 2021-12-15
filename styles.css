@@ -1,28 +1,12 @@
-/* font-family: 'Quicksand', sans-serif;
-COLORS
-light-yellow - #f7e4bf;
-light-blue - #78a7c6;
-dark-blue - #134d71;
-white - #ffffff;
-black - #000000;
-*/
-
 html,
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   height: 100%;
   width: 100%;
   font-family: 'Quicksand', sans-serif;
-  color: #ffffff;
   background: linear-gradient(#134d71, #78a7c6, #f7e4bf) no-repeat;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding-top: 50px;
  }
 
@@ -30,27 +14,52 @@ main {
   height: 30px;
   width: 30%;
   background-color: #134d71;
-  color: #ffffff;
   border: 0;
   border-radius: 5px;
 }
 
-.box-1 {
+html,
+body,
+main,
+.box-2,
+.choices,
+.click {
+  display: flex;
+}
+
+html,
+body,
+main {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-2,
+.choices {
+  justify-content: space-around;
+}
+
+html,
+body,
+button {
+  color: #ffffff;
+}
+
+.box-1,
+.box-2 {
   color: #000000;
   background-color: #ffffff;
-  height: 115px;
-  width: 220%;
   border-radius: 5px;
 }
 
+.box-1 {
+  height: 115px;
+  width: 220%;
+}
+
 .box-2 {
- color: #000000;
- background-color: #ffffff;
  height: 190px;
  width: 320%;
- border-radius: 5px;
- display: flex;
- justify-content: space-around;
  margin-top: 120px;
 }
 
@@ -59,12 +68,9 @@ main {
 }
 
 .choices {
-  display: flex;
-  justify-content: space-around;
   margin: 20px;
 }
 
 .click {
-  display: flex;
   justify-content: center;
 }
