@@ -1,8 +1,76 @@
-/* font-family: 'Quicksand', sans-serif;
-COLORS
-light-yellow - #f7e4bf;
-light-blue - #78a7c6;
-dark-blue - #134d71;
-white - #ffffff;
-black - #000000;
-*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf) no-repeat;
+}
+
+main {
+  padding-top: 50px;
+ }
+
+ button {
+  height: 30px;
+  width: 30%;
+  background-color: #134d71;
+  border: 0;
+  border-radius: 5px;
+}
+
+html,
+body,
+main,
+.box-2,
+.choices,
+.click {
+  display: flex;
+}
+
+html,
+body,
+main {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-2,
+.choices {
+  justify-content: space-around;
+}
+
+html,
+body,
+button {
+  color: #ffffff;
+}
+
+.box-1,
+.box-2 {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.box-1 {
+  height: 115px;
+  width: 220%;
+}
+
+.box-2 {
+ height: 190px;
+ width: 320%;
+ margin-top: 120px;
+}
+
+.image {
+  padding: 50px;
+}
+
+.choices {
+  margin: 20px;
+}
+
+.click {
+  justify-content: center;
+}
