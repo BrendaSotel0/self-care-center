@@ -6,3 +6,15 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  color: #ffffff;
+  background: linear-gradient(#134d71, #78a7c6, #f7e4bf) no-repeat;
+}
