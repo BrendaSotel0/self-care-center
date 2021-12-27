@@ -12,11 +12,11 @@
       <h2>Which type of message?</h2>
       <section class="box-1">
         <div class="choices">
-          <label class="select-1">
-            <input type="radio" name="action" value="affirmation">affirmation</input>
+          <label for="affButton" class="affirmations">
+            <input type="radio" id="affButton" name="action" value="affirmation">affirmation</input>
           </label>
-          <label class="select-2">
-            <input type="radio" name="action" value= "mantra">mantra</input>
+          <label for="manButton" class="mantras">
+            <input type="radio" id="manButton" name="action" value= "mantra">mantra</input>
           </label>
         </div>
         <div class="click">
@@ -24,9 +24,14 @@
         </div>
       </section>
       <section class="box-2">
+        <section class="message-box hidden">
+          <center class="result"><h1>placeholder</h1></center>
+          <button class="clear-button">CLEAR</button>
+        </section>
         <img src="assets/meditate.svg" alt="meditate" class="image"/>
       </section>
     </main>
     <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="data.js"></script>
   </body>
 </html>

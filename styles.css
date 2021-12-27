@@ -1,5 +1,9 @@
 html,
 body {
+  display: flex;
+  color: #ffffff;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
   font-family: 'Quicksand', sans-serif;
@@ -7,10 +11,15 @@ body {
 }
 
 main {
+  display: block;
   padding-top: 50px;
+  width: 100%;
+  /* flex-direction: column; */
+  /* align-items: center; */
  }
 
- button {
+button {
+  color: #ffffff;
   height: 30px;
   width: 30%;
   background-color: #134d71;
@@ -18,59 +27,75 @@ main {
   border-radius: 5px;
 }
 
-html,
-body,
-main,
-.box-2,
+h2 {
+  margin-left: 40.5%;
+}
+
 .choices,
 .click {
   display: flex;
 }
 
-html,
-body,
-main {
-  flex-direction: column;
-  align-items: center;
+.box-1 {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  height: 115px;
+  width: 50%;
+  margin-left: 25%;
 }
 
-.box-2,
-.choices {
-  justify-content: space-around;
-}
-
-html,
-body,
-button {
-  color: #ffffff;
-}
-
-.box-1,
 .box-2 {
   color: #000000;
   background-color: #ffffff;
   border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  height: 190px;
+  width: 70%;
+  margin-top: 120px;
+  margin-left: 15%;
 }
 
-.box-1 {
-  height: 115px;
-  width: 220%;
-}
-
-.box-2 {
- height: 190px;
- width: 320%;
- margin-top: 120px;
+.message-box {
+  display: block;
 }
 
 .image {
-  padding: 50px;
+  display: flex;
+  justify-content: flex-end;
+  width: 25%;
+  justify-content: center;
+  height: 75%;
+  margin-top: 25px;
 }
 
 .choices {
+  justify-content: space-around;
   margin: 20px;
 }
 
 .click {
   justify-content: center;
+}
+
+.clear-button {
+  background-color: #95a5a6;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  height: 35px;
+  width: 80px;
+  flex: 1;
+  margin-top: auto;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.result {
+
+}
+
+.hidden {
+  display: none;
 }
